@@ -153,7 +153,9 @@ plot(mpg ~ wt,main="Graph miles per gallon - weight", xlab="Weight", ylab="Miles
     • H0 (null hypothesis) : Heavier cars consume more fuels.
     • H1 (alternative hypothesis) : Heavier cars consume less or same amount of fuel than the others.
 </p>
+
 [Back to top](#)
+
 ## 4. Fitting Model
 
 It fits with linear models, we used 2 different ways to implement the linear regression.
