@@ -1,6 +1,7 @@
 # Project report of the dataset <i>mtcars</i> <br><p> Dany SONETHAVY | Jérémy TANG</p>
 
 <p> First application of studying the dataset mtcars using our course.</p>
+
 ## Summary
 
 1. [Data Exploration](##1.-Data-Exploration)
