@@ -120,6 +120,7 @@ mt + facet_grid(vars(vs), scales = "free") + labs(x="Horsepower", y="Miles per G
 
 ```
 [Back to top](#)
+
 ## 3. Testing Hypothesis
 
 <p> We noticed that the weight of a car seems to be related to the miles/gallon so we decided to deal with these variables in depth.
@@ -148,9 +149,10 @@ plot(mpg ~ wt,main="Graph miles per gallon - weight", xlab="Weight", ylab="Miles
 ### value of the correlation coefficient .
 ```
 
-Finally we made two hypothesis :
+<p> Finally we made two hypothesis :
     • H0 (null hypothesis) : Heavier cars consume more fuels.
     • H1 (alternative hypothesis) : Heavier cars consume less or same amount of fuel than the others.
+</p>
 [Back to top](#)
 ## 4. Fitting Model
 
@@ -196,5 +198,6 @@ R_sq3
 ## Using the scatter.smooth function
 scatter.smooth(x=mtcars$wt, y=mtcars$mpg, main="Graph miles per gallon - weight",xlab ="Weight",ylab="Miles per gallon")
 ```
+
 [Back to top](#)
 
