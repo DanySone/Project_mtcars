@@ -25,7 +25,7 @@ theme_set(theme_pubr())
 names(mtcars)
 summary(mtcars)
 ```
-
+[Back to top](#)
 
 
 ## 2. Data Visualization
@@ -119,7 +119,7 @@ mt + facet_grid(vars(vs), scales = "free") + labs(x="Horsepower", y="Miles per G
     stat_ellipse()+ ggtitle("Miles per Gallon/Horsepower according to the Engine")
 
 ```
-
+[Back to top](#)
 ## 3. Testing Hypothesis
 
 <p> We noticed that the weight of a car seems to be related to the miles/gallon so we decided to deal with these variables in depth.
@@ -151,7 +151,7 @@ plot(mpg ~ wt,main="Graph miles per gallon - weight", xlab="Weight", ylab="Miles
 Finally we made two hypothesis :
     • H0 (null hypothesis) : Heavier cars consume more fuels.
     • H1 (alternative hypothesis) : Heavier cars consume less or same amount of fuel than the others.
-
+[Back to top](#)
 ## 4. Fitting Model
 
 It fits with linear models, we used 2 different ways to implement the linear regression.
@@ -196,5 +196,5 @@ R_sq3
 ## Using the scatter.smooth function
 scatter.smooth(x=mtcars$wt, y=mtcars$mpg, main="Graph miles per gallon - weight",xlab ="Weight",ylab="Miles per gallon")
 ```
-
+[Back to top](#)
 
