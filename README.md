@@ -150,8 +150,8 @@ plot(mpg ~ wt,main="Graph miles per gallon - weight", xlab="Weight", ylab="Miles
 ```
 
 <p> Finally we made two hypothesis :<br>
-    • H0 (null hypothesis) : Heavier cars consume more fuels.<br>
-    • H1 (alternative hypothesis) : Heavier cars consume less or same amount of fuel than the others.
+    • H0 (null hypothesis) : Heavier cars consume the same amount of fuels.<br>
+    • H1 (alternative hypothesis) : Heavier cars consume less or more amount of fuel than the others.
 </p>
 
 [Back to top](#)
