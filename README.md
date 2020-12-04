@@ -4,10 +4,10 @@
 
 ## Summary
 
-1. [Data Exploration](##1-data-exploration)
-2. [Data Visualization](##2-data-visualization)
-3. [Testing Hypothesis](##3-test-hypothesis)
-4. [Fitting Model](##4-fitting-model)
+1. [Data Exploration](#1-data-exploration)
+2. [Data Visualization](#2-data-visualization)
+3. [Testing Hypothesis](#3-test-hypothesis)
+4. [Fitting Model](#4-fitting-model)
 
 
 ## 1. Data Exploration 
